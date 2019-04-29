@@ -3,9 +3,9 @@
 
 	//mysql://b2c04d13ed6b4c:40729ffe@us-cdbr-iron-east-02.cleardb.net/heroku_b87ec2784b3ca40?reconnect=true
    $dbhost="us-cdbr-iron-east-02.cleardb.net";
-   $dbuser="b2c04d13ed6b4c";
-   $dbpass="40729ffe";
-   $dbname="heroku_b87ec2784b3ca40";	
+   $dbuser="bd227c3da6ee6e";
+   $dbpass="6c550698";
+   $dbname="heroku_86d26ce957e6251";	
 
    $db = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
